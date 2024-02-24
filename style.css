@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/124/838/355/game-minimalist-tetris-videogames-wallpaper-preview.jpg);
+}
+
+canvas {
+    background: rgb(171, 171, 171);
+    margin: 0 auto;
+} 
+
+* {
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 320px 200px;
+  }
+  
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .game-board {
+    border: solid 2px;
+  }
+  
+  .play-button {
+    background-color: #364eeb;
+    font-size: 16px;
+    padding: 15px 30px;
+    cursor: pointer;
+    color: azure;
+  }
+
+  h1{
+    color: #f1df41;
+  }
+
+  p{
+    color: rgb(52, 235, 73);
+  }

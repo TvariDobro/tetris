@@ -1,0 +1,22 @@
+{
+  "name": "tetris",
+  "version": "1.0.0",
+  "description": "the tetris game",
+  "main": "board.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TvariDobro/tetris.git"
+  },
+  "keywords": [
+    "tetris"
+  ],
+  "author": "'Valentin / ufty521@gmail.com'",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TvariDobro/tetris/issues"
+  },
+  "homepage": "https://github.com/TvariDobro/tetris#readme"
+}
